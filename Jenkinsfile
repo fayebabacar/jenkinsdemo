@@ -9,7 +9,7 @@ pipeline {
                 sh 'mvn --version'
             }
         }
-        stage('build') {
+        stage('build Real') {
             steps {
                 sh 'mvn clean install'
             }
