@@ -9,7 +9,7 @@ pipeline {
                 sh 'mvn --version'
             }
         }
-        stage('build') {
+        stage('build Reel') {
             steps {
                 sh 'mvn clean install'
             }
